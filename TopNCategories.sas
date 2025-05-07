@@ -12,6 +12,8 @@
 /* N - The "N" in Top N - how many to show       */ 
 /* CATEGORY - across which category?             */ 
 /*************************************************/
+
+/* Modify 07/05/2025: Change the output to CSV. */
 %let data=SASHELP.CARS;
 %let report=Model;
 %let measure=MPG_City;
