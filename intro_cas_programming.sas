@@ -1,7 +1,7 @@
 ﻿/* This code shows the basic structures in CAS Programming */
 
-/* Create a cas session called 'mysess' with 30 mins timeout */
-cas mysess sessopts=(caslib=casuser timeout=1800 locale="en_US" metrics=True);
+/* Create a cas session called 'mysess' with 60 mins timeout */
+cas mysess sessopts=(caslib=casuser timeout=3600 locale="en_US" metrics=True);
 
 /* Shows notes, warnings, and errors,plus informational messages
 that can help you understand more about SAS's internal processing
