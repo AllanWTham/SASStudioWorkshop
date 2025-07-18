@@ -1,4 +1,4 @@
-/*************************************************/
+﻿/*************************************************/
 /* Copyright 2008-2010 SAS Institute Inc.        */
 /* Top N report for data across categories       */
 /* Use macro variables to customize the data     */
@@ -12,12 +12,13 @@
 /* N - The "N" in Top N - how many to show       */ 
 /* CATEGORY - across which category?             */ 
 /*************************************************/
+/* Comment - By AWT */
 %let data=SASHELP.CARS;
 %let report=Model;
 %let measure=MPG_City;
 %let measureformat=%str(format=BEST6.);
 %let stat=MEAN;
-%let n=10;
+%let n=7;
 %let category=Origin;
 title "Top Models by MPG_City for each region of Origin";
 footnote;
