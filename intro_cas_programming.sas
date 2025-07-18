@@ -1,6 +1,6 @@
 ﻿/* This code shows the basic structures in CAS Programming */
 
-/* Create a cas session called 'mysess' with 60 mins timeout */
+/* Create a cas session called 'mysess' with 60 minutes timeout */
 cas mysess sessopts=(caslib=casuser timeout=3600 locale="en_US" metrics=True);
 
 /* Shows notes, warnings, and errors,plus informational messages
